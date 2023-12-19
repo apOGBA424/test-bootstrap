@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Bootstrap | HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid px-5">
+            <img src="https://privacypolicy-detechtiveapp.web.app/images/img4096x2304.png" alt="Bootstrap" width="20" height="20" style="border-radius: 10px;">
+            <a class="navbar-brand px-3" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <h2 class="h2-as-title" my-5>BOOTSTRAP BUTTON & COLORS</h2>
+
+    <div class="button-group-1 m-5 p-4 container-fluid">
+        <button>Button-1</button>
+        <button class="btn">Button-2</button>
+        <button class="btn btn-primary">Button-3</button>
+        <button class="btn btn-success">Button-4</button>
+        <button class="btn btn-danger">Button-5</button>
+    </div>
+
+    <h2 class="h2-as-title" my-5>BOOTSTRAP LAYOUTS</h2>
+
+    <button class="btn btn-dark py-2 col-8 m-4">Button-6</button>
+    <button class="btn btn-dark m-4 p-5">Button-7</button>
+    <button class="btn btn-dark m-4 p-5 col-12">Button-8</button>
+    <div class="box div0 callout border-right-color"></div>
+    <div class="box div1 --bs-body-color"></div>
+    <div class="box div2 --bs-body-color-rgb"></div>
+    <div class="box div3 --bs-body-color-rgb"></div>
+
+    <!-- bootstrap containers -->
+    <div class="container-sm">100% wide until small breakpoint</div>
+    <div class="container-md">100% wide until medium breakpoint</div>
+    <div class="container-lg">100% wide until large breakpoint</div>
+    <div class="container-xl">100% wide until extra large breakpoint</div>
+    <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+    <!-- bootstrap container fluid -->
+    <div class="container-fluid my-4 text-center">
+        bootstrap div container-fluid
+    </div>
+
+    <!-- bootstrap grid auto-layout using "col" and "row" -->
+    <!-- NOTE: that "auto-layout-1" is a custom class name i made up -->
+    <div class="auto-layout-1 container text-center">
+        <div class="row">
+          <div class="col">
+            1 of 2
+          </div>
+          <div class="col">
+            2 of 2
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col">
+            2 of 3
+          </div>
+          <div class="col">
+            3 of 3
+          </div>
+        </div>
+    </div>
+
+
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+        </div>
+        <div class="row">
+          <div class="col-8">col-8</div>
+          <div class="col-4">col-4</div>
+        </div>
+    </div>
+
+
+    <!-- BOOSTRAP HEADINGS -->
+    <h2 class="h2-as-title my-5"> HTML HEADINGS VS BOOTSTRAP HEADINGS</h2>
+    <div class="container row bootstrap-headings-comparison">
+        <div class="col">
+            HTML HEADINGS
+            <h1>h1. Bootstrap heading</h1>
+            <h2>h2. Bootstrap heading</h2>
+            <h3>h3. Bootstrap heading</h3>
+            <h4>h4. Bootstrap heading</h4>
+            <h5>h5. Bootstrap heading</h5>
+            <h6>h6. Bootstrap heading</h6>
+        </div>
+        <div class="col">
+            BOOTSTRAP HEADINGS
+            <p class="h1">h1. Bootstrap heading</p>
+            <p class="h2">h2. Bootstrap heading</p>
+            <p class="h3">h3. Bootstrap heading</p>
+            <p class="h4">h4. Bootstrap heading</p>
+            <p class="h5">h5. Bootstrap heading</p>
+            <p class="h6">h6. Bootstrap heading</p>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP DISPLAY- HEADING CLASS -->
+    <h2 class="h2-as-title my-5">Display-(nth) Headings Class</h2>
+    <div class="div-children">
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+        <h1 class="display-5">Display 5</h1>
+        <h1 class="display-6">Display 6</h1>
+    </div>
+
+
+
+    <!-- BOOTSTRAP IMAGE MANIPULATION -->
+    <h2 class="my-5 h2-as-title">Image Manipulation</h2>
+    <div class="image-group-div mx-5">
+        DEFAULT
+        <img src="https://privacypolicy-detechtiveapp.web.app/images/img4096x2304.png" alt="" id="exampleImg" width="500px">
+        <br>THUMBNAIL
+        <img class="img-thumbnail" src="https://privacypolicy-detechtiveapp.web.app/images/img4096x2304.png" alt="" id="exampleImg" width="200px" height="200px">
+        <p>img-fluid class</p>
+        <img class="img-fluid" src="https://privacypolicy-detechtiveapp.web.app/images/img4096x2304.png" alt="" id="exampleImg" width="500px">
+    </div>
+
+
+    <!-- BOOTSTRAP TABLE MANIPULATION -->
+    <h2 class="my-5 h2-as-title">Table Manipulation</h2>
+    <div class="image-group-div mx-5">
+        DEFAULT HTML TABLE:
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+              <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+              <tr>
+                  <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <!-- BOOTSTRAP TABLE STRIP -->
+          BOOTSTRAP TABLE (table-striped) GROUP-DIVIDER CLASS: <br>
+          <table class="table table-striped">
+              <thead>
+                  <tr>
+                      <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+        <!-- <h2 class="my-5 h2-as-title">BOOTSTRAP BREADCRUMBS</h2> -->
+        <h2 class="my-5 h2-as-title">BOOTSTRAP BREADCRUMBS</h2>
+        <div class="mx-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+              </nav>
+              
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Library</li>
+                </ol>
+              </nav>
+              
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Library</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+            </nav>
+
+            <br> BREADCRUMB WITH LEFT-ARROW
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Library</li>
+                </ol>
+              </nav>
+        </div>
+
+
+        <h2 class="my-5 h2-as-title">BOOTSTRAP BUTTON</h2>
+        <div class="m-4 px-5">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-link">Link</button><br>
+
+            <div>
+                <br><br><p>buttons with roles attribute</p>
+                <a class="btn btn-primary" href="#" role="button">Link</a>
+                <button class="btn btn-primary" type="submit">Button</button>
+                <input class="btn btn-primary" type="button" value="Input">
+                <input class="btn btn-primary" type="submit" value="Submit">
+                <input class="btn btn-primary" type="reset" value="Reset">
+            </div>
+
+            <br><br>
+                <p>OUTLINE BUTTONS WITH COLOR</p>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+        </div>
+
+        <br><br>
+        <p class="mx-5">TOGGLE BUTTON</p>
+        <div class="mx-4">
+            <p class="d-inline-flex gap-1">
+                <button type="button" class="btn" data-bs-toggle="button">Toggle button</button>
+                <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+                <button type="button" class="btn" disabled data-bs-toggle="button">Disabled toggle button</button>
+            </p>
+            <p class="d-inline-flex gap-1">
+                <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+                <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+                <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+            </p>
+        </div>
+
+
+         <!-- BOOTSTRAP CARD -->
+        <div class="container-xl">
+            <h2 class="my-5 h2-as-title">BOOTSTRAP CARD</h2>
+            <!-- card image on top of the card layout -->
+            <div class="card mb-5" style="width: 18rem;">
+                <img class="card-img-top" src="https://privacypolicy-detechtiveapp.web.app/images/img4096x2304.png" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Card title</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa beatae tempora quis eligendi obcaecati necessitatibus.</p>
+                    <button class="btn btn-primary btn-sm col-8">Click to Pay</button><br>
+                    <a href="#" class="card-link">Lorem ipsum.</a>
+                </div>
+            </div>
+            <!-- card with no image -->
+            <div class="card w-35">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            
+              <div class="card text-center my-4">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  2 days ago
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARD AS HEADER NAV -->
+              <div class="card text-center">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="true" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <!-- CARD IMAGE OVERLAY -->
+              <div class="card text-bg-dark" style="width: 300px;">
+                <img src="https://privacypolicy-detechtiveapp.web.app/images/img4096x2304.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+        </div>
+
+        
+        <!-- <h2 class="my-5 h2-as-title">BOOTSTRAP CARD</h2> -->
+        <!-- <h2 class="my-5 h2-as-title">BOOTSTRAP BREADCRUMBS</h2> -->
+        <!-- <h2 class="my-5 h2-as-title">BOOTSTRAP BREADCRUMBS</h2> -->
+
+
+        <script src="./script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
